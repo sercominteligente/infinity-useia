@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Web
+node_modules/
+dist/
+build/
+.next/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime / Local data
+data/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+
+# Secrets / credentials
+secrets/
+credentials/
+*.pem
+*.key

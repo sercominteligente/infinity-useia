@@ -1,0 +1,16 @@
+services:
+  hakham:
+    build: .
+    container_name: hakham-infinity
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      HAKHAM_MEMORY_DB: /app/data/hakham.db
+    ports:
+      - "8765:8765"
+    volumes:
+      - hakham-data:/app/data
+
+volumes:
+  hakham-data:
