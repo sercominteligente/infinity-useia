@@ -1,0 +1,1 @@
+v0.7 assets are served by the backend. The official Hakham avatar and SER Comtec logo are binary WebP files managed through Git blobs.
